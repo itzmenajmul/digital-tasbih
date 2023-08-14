@@ -52,7 +52,7 @@ document.getElementById("cardTwoDecrement").addEventListener('click', function (
 let cardThreeValue = 0;
 document.getElementById("cardThreeIncrement").addEventListener('click', function () {
     if (cardThreeValue === 33) {
-        return alert("Allahuakber Complete. Please Fillup anoter one");
+        return alert("Allahuakber Complete. Please Reset and continue");
     } else {
         const cardThreeDisplay = document.getElementById("cardThreeDisplay");
         cardThreeValue += 1;
